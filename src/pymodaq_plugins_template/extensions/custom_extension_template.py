@@ -32,7 +32,7 @@ class CustomExtensionTemplate(CustomExt):
     params = []
 
     def __init__(self, parent: gutils.DockArea, dashboard):
-        super().__init__(parent, dashboard)
+        super().__init__(parent, dashboard) #crée la méthode init de la classe parent 
 
         # info: in an extension, if you want to interact with ControlModules you have to use the
         # object: self.modules_manager which is a ModulesManager instance from the dashboard
